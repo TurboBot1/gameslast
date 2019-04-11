@@ -58,7 +58,7 @@ client.on('ready', () => {
   console.log('')
   console.log('')
   console.log('')
-  client.user.setActivity('#Games')
+  client.user.setActivity('$Games')
 });
 
 client.on('message', message => {
