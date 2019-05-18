@@ -145,7 +145,7 @@ client.on('message', message => {
 		math: 0,
 	};
 	
-	if(command == prefix + 'لغز') {
+	if(command == prefix + 'gas') {
 		let type = require('./qlaz.json');
 		let item = type[Math.floor(Math.random() * type.length)];
 		let filter = response => {
@@ -187,7 +187,7 @@ client.on('message', message => {
 			})
 		})
 	}
-	if(command == prefix + 'فكك') {
+	if(command == prefix + 'fkk') {
 		let type = require('./qfkk.json');
 		let item = type[Math.floor(Math.random() * type.length)];
 		let filter = response => {
@@ -229,7 +229,7 @@ client.on('message', message => {
 			})
 		})
 	}
-	if(command == prefix + 'اسرع') {
+	if(command == prefix + 'fast') {
 		let type = require('./qfast.json');
 		let item = type[Math.floor(Math.random() * type.length)];
 		let filter = response => {
@@ -271,7 +271,7 @@ client.on('message', message => {
 			})
 		})
 	}
-	if(command == prefix + 'ايموجي') {
+	if(command == prefix + 'emoji') {
 		let type = require('./qemoji.json');
 		let item = type[Math.floor(Math.random() * type.length)];
 		let filter = response => {
@@ -314,7 +314,7 @@ client.on('message', message => {
 			})
 		})
 	}
-	if(command == prefix + 'علم') {
+	if(command == prefix + 'flag') {
 		let type = require('./qflag.json');
 		let item = type[Math.floor(Math.random() * type.length)];
 		let filter = response => {
