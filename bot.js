@@ -464,7 +464,7 @@ client.on('message', message => {
 
 
       client.on("message", message => {
-    if (message.content.toLowerCase() === prefix + "مساعدة") {
+    if (message.content.toLowerCase() === prefix + "games") {
         message.delete(5000)
         if(!message.channel.guild) return;
         const e = new Discord.RichEmbed()
@@ -511,7 +511,7 @@ $رياضيات
 
    
       client.on("message", message => {
-    if (message.content.toLowerCase() === prefix + "مساعده") {
+    if (message.content.toLowerCase() === prefix + "games") {
         message.delete(5000)
         if(!message.channel.guild) return;
         const e = new Discord.RichEmbed()
@@ -558,7 +558,7 @@ $رياضيات
    
 client.on('message', message => {
       if(message.author.bot) return;
-if (message.content.startsWith(prefix + 'توب')) {
+if (message.content.startsWith(prefix + 'top')) {
     let _top = 1;
      let topp = Object.values(points);
  let top = topp.slice(0, 10).map(users => `**\`.${_top++}\` <@${users.id}> \`| ${users.points}\`**`).sort((a, b) => a > b).join('\n');
